@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Slider from "@mui/material/Slider";
 
 const SliderComponent = () => {
   return (
-    <div>SliderComponent</div>
-  )
-}
+    <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
+  );
+};
 
-export default SliderComponent
+export default SliderComponent;
